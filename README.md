@@ -1,65 +1,78 @@
 Tic-Tac-Toe Game 🏆
+
 Introduction
-This is a simple Tic-Tac-Toe game built using Python in Jupyter Notebook. The game allows two players to compete or play against an AI opponent with logical move selection.
+Welcome to Tic-Tac-Toe, a classic game implemented in Python using Jupyter Notebook! This project was developed by sundaram-23 to showcase fundamental programming concepts and game logic.
 
 Features 🚀
-Player vs. Player mode
 
-AI-powered move selection
+Player vs Player mode
 
-Interactive UI within Jupyter Notebook
+AI-powered opponent for single-player mode
 
-Clean and efficient game logic implementation
+Grid-based input system in Jupyter Notebook
+
+Optimized move selection algorithms for AI
 
 Installation ⚙️
-To run the game, follow these steps:
+
+Follow these steps to run the game on your local machine:
 
 Clone the repository:
 
 sh
-git clone https://github.com/your-username/tic-tac-toe.git
-Navigate to the folder:
+
+git clone https://github.com/sundaram-23/tic-tac-toe.git
+Navigate to the project folder:
 
 sh
+
 cd tic-tac-toe
-Install dependencies (if any):
+
+Install dependencies (if required):
 
 sh
+
 pip install -r requirements.txt
-Open Jupyter Notebook and run the Tic-Tac-Toe.ipynb file.
+Launch Jupyter Notebook and open TicTacToe.ipynb
+
+Run the notebook cells to start the game
 
 How to Play 🎮
-Run the notebook cell to start the game.
 
 Players take turns selecting positions (1-9) on the grid.
 
-The game announces the winner or declares a draw.
+The AI opponent makes strategic moves when playing against a single player.
+
+The game announces the winner or a draw at the end.
 
 Technologies Used 🛠
+
 Python
 
 Jupyter Notebook
 
 Future Enhancements 🔥
-Adding a graphical user interface (GUI)
 
-Enhancing AI difficulty levels
+Implementing a GUI (Graphical User Interface) for better interaction
 
-Improving game aesthetics
+Adding difficulty levels for AI opponent
+
+Enhancing game visuals
 
 Contributing 🤝
-Want to improve the game? Feel free to contribute!
+
+Want to contribute? Follow these steps:
 
 Fork the repository
 
 Create a new branch (git checkout -b feature-branch)
 
-Make your changes and commit (git commit -m "Your message")
+Make your changes and commit (git commit -m "Added new feature")
 
-Push your changes (git push origin feature-branch)
+Push your branch (git push origin feature-branch)
 
 Open a pull request
 
 License 📜
-This project is open-source under the MIT License.# tic-tac-toe
-Developed a Tic-Tac-Toe game using Python and Jupyter Notebook, implementing logic for player vs. player and AI-based gameplay.
+
+This project is open-source under the MIT License.
