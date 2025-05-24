@@ -1,78 +1,55 @@
-Tic-Tac-Toe Game 🏆
+# Tic-Tac-Toe Game
+By **sundaram-23**
 
-Introduction
-Welcome to Tic-Tac-Toe, a classic game implemented in Python using Jupyter Notebook! This project was developed by sundaram-23 to showcase fundamental programming concepts and game logic.
+## Overview
+This is a simple command-line Tic-Tac-Toe game implemented in Python. It allows two players to take turns choosing their markers and playing on a 3x3 board.
 
-Features 🚀
+## Features
+- Display the game board dynamically.
+- Players choose 'X' or 'O' as their markers.
+- Place markers on the board.
+- Basic input validation.
 
-Player vs Player mode
+## Installation
+1. Ensure you have Python installed. You can download it [here](https://www.python.org/downloads/).
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/sundaram-23/tictactoe.git
+   ```
+3. Navigate to the project directory:
+   ```bash
+   cd tictactoe
+   ```
+4. Run the script:
+   ```bash
+   python tictactoe.py
+   ```
 
-AI-powered opponent for single-player mode
+## How to Play
+1. Run the script in Python.
+2. Player 1 chooses their marker ('X' or 'O').
+3. Players take turns placing their markers on the board.
+4. The game updates the board after each move.
+5. The first player to get three of their markers in a row wins!
 
-Grid-based input system in Jupyter Notebook
+## Requirements
+- Python 3
+- IPython for display functions
 
-Optimized move selection algorithms for AI
+## Future Enhancements
+- Add a game-winning logic.
+- Implement AI for single-player mode.
+- Improve user input validation.
+- Introduce a graphical user interface (GUI) for better gameplay experience.
+- Allow players to choose custom board sizes.
 
-Installation ⚙️
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Follow these steps to run the game on your local machine:
+## Author
+**sundaram-23**
 
-Clone the repository:
+Feel free to contribute by improving the code and adding new features! 🚀
+```
 
-sh
-
-git clone https://github.com/sundaram-23/tic-tac-toe.git
-Navigate to the project folder:
-
-sh
-
-cd tic-tac-toe
-
-Install dependencies (if required):
-
-sh
-
-pip install -r requirements.txt
-Launch Jupyter Notebook and open TicTacToe.ipynb
-
-Run the notebook cells to start the game
-
-How to Play 🎮
-
-Players take turns selecting positions (1-9) on the grid.
-
-The AI opponent makes strategic moves when playing against a single player.
-
-The game announces the winner or a draw at the end.
-
-Technologies Used 🛠
-
-Python
-
-Jupyter Notebook
-
-Future Enhancements 🔥
-
-Implementing a GUI (Graphical User Interface) for better interaction
-
-Adding difficulty levels for AI opponent
-
-Enhancing game visuals
-
-Contributing 🤝
-
-Want to contribute? Follow these steps:
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-branch)
-
-Make your changes and commit (git commit -m "Added new feature")
-
-Push your branch (git push origin feature-branch)
-
-Open a pull request
-
-License 📜
-
-This project is open-source under the MIT License.
+Let me know if you’d like any modifications! 😃 If you prefer a different license, like GPL or Apache, I can update it accordingly.
